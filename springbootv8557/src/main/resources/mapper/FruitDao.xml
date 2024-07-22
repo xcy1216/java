@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.FruitDao">
+    <resultMap type="com.entity.FruitEntity" id="fruitMap">
+        <result property="id" column="id"/>
+        <result property="fruit_name" column="fruit_name"/>
+        <result property="image" column="image"/>
+        <result property="fruit_type" column="fruit_type"/>
+        <result property="introduce" column="introduce"/>
+        <result property="efficacy" column="efficacy"/>
+    </resultMap>
+
+
+
+</mapper>
